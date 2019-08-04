@@ -1,0 +1,338 @@
+{
+  "project_info": {
+    "project_number": "300367085454",
+    "firebase_url": "https://androidapp-4c567.firebaseio.com",
+    "project_id": "androidapp-4c567",
+    "storage_bucket": "androidapp-4c567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:f81c47db19bbef0b",
+        "android_client_info": {
+          "package_name": "com.derick.sportsbettips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:fd1278b99344c41a",
+        "android_client_info": {
+          "package_name": "com.indevsdigital.joshua.elerningauthorisation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:f96107d2ab2d8ce2",
+        "android_client_info": {
+          "package_name": "com.nix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:6d60003fdee65458",
+        "android_client_info": {
+          "package_name": "com.nix.travelmantics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-sueskgjsd4llu7qhcngvfkkphfjqsff0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nix.travelmantics",
+            "certificate_hash": "2b411d4b40c25939d4d6ff90288ca8410ce0e8d7"
+          }
+        },
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:fd1250bc16a59a12",
+        "android_client_info": {
+          "package_name": "com.nixontergech.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:7c9aa739b6b21f67",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.foodappdeliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:4e294144dc03e517",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.mealpalii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:417e8e1d92638df1",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.publiclikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:320f146f0c97a57b",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.retrofit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:af2a0fa6246d0db2",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.sphubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300367085454:android:55d126d616f528a0",
+        "android_client_info": {
+          "package_name": "com.tergech.nixon.sportsbettinghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvqzhc_X0gqDZVNv_yQMRCyxgqtton6MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300367085454-5emenolaq6iirm02qehq629tjpc5je4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
