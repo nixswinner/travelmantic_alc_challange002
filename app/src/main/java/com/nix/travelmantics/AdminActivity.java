@@ -95,11 +95,9 @@ public class AdminActivity extends AppCompatActivity {
                        finish();
                        Toast.makeText(context,"Saved Successfully",
                                Toast.LENGTH_SHORT).show();
-
                    }else {
                        Toast.makeText(context,"Kindly select image",
                                Toast.LENGTH_SHORT).show();
-
                    }
                 }else {
                     edtDesc.setError("Provide Description");
@@ -110,7 +108,6 @@ public class AdminActivity extends AppCompatActivity {
         }else {
             edtName.setError("Provide Name");
         }
-        Toast.makeText(context,"Saving ...",Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -147,15 +144,6 @@ public class AdminActivity extends AppCompatActivity {
                     });
                 }
             });
-            /*photoRef.putFile(selectedImageUri).addOnSuccessListener
-                    (this, new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            Uri downloadUrl = taskSnapshot.getDownloadUrl();
-                            FriendlyMessage friendlyMessage = new FriendlyMessage(null, mUsername, "Today",downloadUrl.toString());
-                            mMessagesDatabaseReference.push().setValue(friendlyMessage);
-                        }
-                    });*/
         }
     }
 
@@ -168,13 +156,8 @@ public class AdminActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_save) {
+         int id = item.getItemId();
+         if (id == R.id.action_save) {
             save();
             return true;
         }

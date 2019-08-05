@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.firebase.ui.auth.data.model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -106,18 +107,12 @@ public class UserActivity extends AppCompatActivity {
 
         if (id == R.id.action_add_deal) {
             //add deal
+            startActivity(new Intent(context,AdminActivity.class));
             return true;
         }
         if (id == R.id.action_logout) {
             //logout
-            mFirebaseAuth.signOut(this)
-                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                        public void onComplete(@NonNull Task<Void> task) {
-                            // ...
-                            Log.d("logout","User Logged out");
-                            finish();
-                        }
-                    });
+            mFirebaseAuth.signOut();
             return true;
         }
 
