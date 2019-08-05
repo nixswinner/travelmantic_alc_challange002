@@ -1,14 +1,17 @@
 package com.nix.travelmantics;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 import com.nix.travelmantics.model.TravelDetails;
 
 import java.util.List;
@@ -30,21 +33,17 @@ public class TravelDetailsRecyclerAdapter
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
+    public void onBindViewHolder(ViewHolder holder, int position) {
         TravelDetails result = mValues.get(position);
+        holder.txtname.setText(result.getName());
+        holder.txtdesc.setText(result.getDesc());
+        holder.txtcost.setText(result.getCost());
+        Glide.with(context)
+                .load(result.getImage_url())
+                .into(holder.imgViewPlace);
+        Log.e("Image Url", "onBindViewHolder: "+result.getImage_url() );
 
     }
-
-    /*@Override
-    public void onBindViewHolder(final ViewHolder holder, final int position) {
-
-        *//*ProductSalesData result = mValues.get(position);
-
-        holder.totalSale.setText(String.valueOf(NumberConverter.getInstance().
-                formatToMoney(result.getTotal())));*//*
-
-    }*/
-
 
     @Override
     public int getItemCount() {
