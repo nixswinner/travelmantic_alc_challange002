@@ -19,7 +19,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -31,18 +30,14 @@ public class AdminActivity extends AppCompatActivity {
 
     private EditText edtName,edtCost,edtDesc;
     private Context context;
-
-    private String mUsername;
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mMessagesDatabaseReference;
-    private ChildEventListener mChildEventListener;
     private FirebaseStorage mFirebaseStorage;
-    private StorageReference mChatPhotosStorageReference;
+    private StorageReference mPhotosStorageReference;
 
     public static final int RC_SIGN_IN = 1;
     private static final int RC_PHOTO_PICKER =  2;
 
-    private FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
     private String image_url=null;
     private ImageView imageView;
@@ -54,11 +49,10 @@ public class AdminActivity extends AppCompatActivity {
 
 
         mFirebaseDatabase = FirebaseDatabase.getInstance();
-        mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseStorage = FirebaseStorage.getInstance();
 
         mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("travelmantics");
-        mChatPhotosStorageReference = mFirebaseStorage.getReference().child("travelmantics_photos");
+        mPhotosStorageReference = mFirebaseStorage.getReference().child("travelmantics_photos");
         mMessagesDatabaseReference.keepSynced(true);
 
         context = AdminActivity.this;
@@ -124,7 +118,7 @@ public class AdminActivity extends AppCompatActivity {
         }
         else if(requestCode == RC_PHOTO_PICKER && resultCode == RESULT_OK){
             Uri selectedImageUri = data.getData();
-            final StorageReference photoRef = mChatPhotosStorageReference.child(selectedImageUri.getLastPathSegment());
+            final StorageReference photoRef = mPhotosStorageReference.child(selectedImageUri.getLastPathSegment());
 
             photoRef.putFile(selectedImageUri).addOnSuccessListener((Activity) context, new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override

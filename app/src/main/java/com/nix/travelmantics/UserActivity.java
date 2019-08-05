@@ -100,6 +100,10 @@ public class UserActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_user, menu);
         return true;
     }
+    //check if
+    public void checkIfAdmin(){
+
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -113,6 +117,8 @@ public class UserActivity extends AppCompatActivity {
         if (id == R.id.action_logout) {
             //logout
             mFirebaseAuth.signOut();
+            finish();
+            startActivity(new Intent(context,MainActivity.class));
             return true;
         }
 
